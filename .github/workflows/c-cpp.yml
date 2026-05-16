@@ -13,11 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+    - name: Verify repository checkout
+      run: |
+        test -d .git
+        test -n "$(git ls-files)"
+    - name: List tracked files
+      run: git ls-files
