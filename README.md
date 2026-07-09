@@ -1,10 +1,13 @@
 # flipper-zero-carjacker
-Flipper Zero Carjacker App - Private Unleashed V2 
 
-Follow the white rabbit. He will lead you through the passage to the land of wiggly roosters.
+Rolling-code security education demo for Flipper Zero.
 
-Use the d-pad to do all the things.
+This app is an interactive simulator that demonstrates:
+- How rolling codes advance and are accepted within a sync window
+- Why simple replay of captured packets is rejected
+- How relay attacks can still succeed conceptually
 
-https://discord.gg/thepirates
-
-<img width="1500" height="1000" alt="rocketgod_logo_transparent" src="https://github.com/user-attachments/assets/b14191a5-b509-44c4-be17-ad51e3226ec8" />
+Controls:
+- Up/Down: move in menu
+- OK: select or advance demo steps
+- Back: return to menu / exit from menu
